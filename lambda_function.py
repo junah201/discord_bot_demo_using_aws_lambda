@@ -68,8 +68,7 @@ def lambda_handler(event, context):
                 "data": {
                     "tts": False,
                     "content": "테스트 응답입니다.",
-                    "embeds": [],
-                    "allowed_mentions": []
+                    "embeds": []
                 }
             }
         )
